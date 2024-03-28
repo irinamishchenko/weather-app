@@ -1,0 +1,17 @@
+.weather-display-container {
+  margin-top: 20px;
+  padding: 10px 70px;
+  border: 1px solid rgb(25, 118, 210);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li {
+  display: flex;
+  gap: 10px;
+}
+
+li span {
+  font-weight: bold;
+}
